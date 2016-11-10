@@ -11,7 +11,6 @@ $(function(){
 	$("body").keypress(function(event){
 		if(event.which==97){
 			c = !c;
-  			alert(c);
  	 	}
 	})
 });
