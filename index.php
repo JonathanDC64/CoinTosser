@@ -2,8 +2,13 @@
 <html>
 	<head>
 		<title>Coin Tosser</title>
+		<script src="js/jquery-3.1.1.min.js"></script>
+		<script src="js/index.js"></script>
 	</head>
 	<body>
-		<h1>Test</h1>
+		<div id="coin">
+			
+		</div>
+		<button id="toss">Coin toss!</button>
 	</body>
 </html>
