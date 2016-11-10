@@ -10,5 +10,8 @@
 			
 		</div>
 		<button id="toss">Coin toss!</button>
+		<div id="cr">
+			[]
+		</div>
 	</body>
 </html>

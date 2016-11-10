@@ -11,6 +11,10 @@ $(function(){
 	$("body").keypress(function(event){
 		if(event.which==97){
 			c = !c;
+			color = "red";
+			if(c==true)
+				color="blue";
+			$("#cr").css("color",color);
  	 	}
 	})
 });
