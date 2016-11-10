@@ -3,7 +3,7 @@ $(function(){
 	
 	$("#toss").on("click",function(){
 		var coin = Math.floor(Math.random() * 2) == 0 ? "heads" : "tails";
-		if(c == true)coin
+		if(c == true)
 			coin = "heads";
 		
 		$("#coin").html("<img src='img/" + coin+ ".jpg'/>");
